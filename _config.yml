@@ -32,11 +32,6 @@ inc:
     gplus:      true
     hn:         false
 
-
-collections:
-  pages:
-    output: true
-
  # Analytics     
   analytics:
     google: true # Add tracking code in _includes/_google-analytics.html
@@ -47,6 +42,13 @@ collections:
   google_font: false
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
+
+collections:
+  pages:
+    output: true
+
+gems:
+  - jekyll-redirect-from
 
 url:         http://creativenightly.com
 source:      .
