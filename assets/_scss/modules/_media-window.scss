@@ -49,11 +49,13 @@
 }
 
 .media-window--large {
-  // height: auto;
   @include min-screen(720px) {
     height: 28rem;
+
+    .media-window__content {
+      padding: 8rem 0 3rem;
+    }
   }
-  // max-height: 28rem;
 }
 
 .media-window__title {
