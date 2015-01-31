@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: About + Contact
 subtitle: 
-lastmod: 2013-03-16
+lastmod: 2015-02-01
 
-permalink: /about/
+permalink: /contact/
 
 cover_image: contact.jpg
 ---
