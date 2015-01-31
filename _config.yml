@@ -33,6 +33,10 @@ inc:
     hn:         false
 
 
+collections:
+  pages:
+    output: true
+
  # Analytics     
   analytics:
     google: true # Add tracking code in _includes/_google-analytics.html

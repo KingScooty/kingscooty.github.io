@@ -1,0 +1,39 @@
+---
+layout: base
+---
+{% if page.cover_image %}
+<div class="media-window media-window--large is-full-width" style="background-image: url(/images/{{ page.cover_image }})">
+</div>
+{% endif %}
+<article class="content-block shift-down">
+
+  <div class="container">
+    <header class="content-block__header {% if page.subtitle %} content-block__header--group {% endif %}">
+      
+      <div class="meta">
+        By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a></address> &mdash;
+        <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      </div>
+      
+      <h1 class="title">{{ page.title }}</h1>      
+      
+      {% if page.subtitle %}
+      <h2 class="subtitle">{{ page.subtitle }}</h2>
+      {% endif %}
+
+    </header>
+
+    <section class="content-block__body">
+      {{ content }}
+    </section>
+
+<!--
+    {% if page.cover_copyright %}
+    <section class="content-block__aside">
+      <p class="muted fine-print cover-copyright">{{ page.cover_copyright }}</p>
+    </section>
+    {% endif %}
+-->
+
+  </div>
+</article>
