@@ -2,8 +2,8 @@
   "name": "creative-nightly",
   "private": true,
   "dependencies": {
-    "jquery-pjax": "git@github.com:falsandtru/jquery-pjax.git#~2.35.0",
-    "jquery.pjax": "https://github.com/falsandtru/jquery-pjax/releases/download/v2.35.0/jquery.pjax.js",
+    "jquery-pjax": "git@github.com:falsandtru/jquery-pjax.git#~2.36.0",
+    "jquery.pjax": "https://github.com/falsandtru/jquery-pjax/releases/download/v2.36.0/jquery.pjax.js",
     "jquery": "~2.1.3"
   },
   "devDependencies": {

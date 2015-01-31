@@ -1,0 +1,34 @@
+---
+layout: base
+---
+{% if page.cover_image %}
+<div class="media-window media-window--large is-full-width" style="background-image: url(/images/{{ page.cover_image }})">
+</div>
+{% endif %}
+<article class="content-block shift-down">
+
+  <div class="container">
+    <header class="content-block__header {% if page.subtitle %} content-block__header--group {% endif %}">
+      
+      <h1 class="title">{{ page.title }}</h1>      
+      
+      {% if page.subtitle %}
+      <h2 class="subtitle">{{ page.subtitle }}</h2>
+      {% endif %}
+
+    </header>
+
+    <section class="content-block__body">
+      {{ content }}
+    </section>
+
+<!--
+    {% if page.cover_copyright %}
+    <section class="content-block__aside">
+      <p class="muted fine-print cover-copyright">{{ page.cover_copyright }}</p>
+    </section>
+    {% endif %}
+-->
+
+  </div>
+</article>
