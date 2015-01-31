@@ -19,8 +19,8 @@ In my early teens, I was fanatical about games and special effects. Companies li
 
 
 At 15 year's old - looking to make the right decisions at school - I actually wrote to Rare asking for advice on how to get a job in the industry. A few weeks later (to my surprise), I received a hand signed letter back. Granted, I was a bit too young for them to just offer me a chance to apply, but the advice within that letter stays with me to this day. Along with the programs I was advised to learn (they used 3D Studio Max and Maya in house), was this nugget of gold:
- 
-<blockquote><p>We typically hire based on creative talent, and <strong>not</strong> on whether you have a degree. So <strong>focus on your creativity</strong> and developing your showreel, and I'm sure we'll be hearing from you in a few years to come.</p></blockquote>
+
+> We typically hire based on creative talent, and **not** on whether you have a degree. So **focus on your creativity** and developing your showreel, and I'm sure we'll be hearing from you in a few years to come.
 
 Basically, **let your craft do the talking**, and the work will come.
 
